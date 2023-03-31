@@ -1,0 +1,86 @@
+@media (max-width: 767px) {
+    .container {
+        padding: 20px;
+    }
+
+    .site-info {
+        min-width: max-content;
+        font-size: xx-small;
+        text-align-last: center;
+    }
+
+    .navbar-logo {
+        width: 80%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .page-section {
+        padding: 20px;
+    }
+    .navbar-toggler-icon {
+    }
+
+    .img-place > img {
+        width: 50%;
+        height: 50%;
+        margin-inline: auto;
+        padding-bottom:5px;
+    }
+    .col-lg-6.py-3.wow.fadeInUp h1 {
+        margin-inline: auto;
+    }
+    .col-lg-6.py-3.wow.fadeInUp {
+        display: contents;
+        align-items: center;
+    }
+    .p.text-grey.mb-4 {
+        margin-right:auto;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 50vh;
+    }
+    basinButton {
+
+    }
+    a.btn.btn-primary{
+        display: flex;
+        margin-inline: auto;
+    }
+    .social{
+        display: none;
+    }
+    #videos-list img {
+        width: 20px;
+        height: 15px;
+        border-radius: 10px;
+        /* box-shadow: 0px 0px 10px #000000; */
+    }
+    #videos-list div {
+        width: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        /* background-color: #f5f9f6; */
+        /* border-radius: 10px
+    px
+    ; */
+        /* box-shadow: 0px 0px 10px #000000; */
+    }
+
+}
+/*Default CSS layout for narrow screens*/
+
+@media (min-width: 480px) {
+    /*CSS for medium width screens*/
+}
+
+@media (min-width: 800px) {
+    /*CSS for wide screens*/
+}
+
+@media (min-width: 1100px) {
+    /*CSS for really wide screens*/
+}

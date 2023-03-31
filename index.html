@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=no">
     <script src="jquery-3.6.1.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="copyright" content="MACode ID, https://macodeid.com/">
-
+    <link rel="stylesheet" href="/assets/css/responsive.css">
     <title>Dr. Ebru Parlayan</title>
 
     <!-- Favicons -->
@@ -45,15 +45,6 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
             integrity="sha384-WupQg4ZM4BsHq3LR/jIEiJbNRHXoRkrmjY30dZwOzkuU6xIvg1zO+lnT26PCs/Gs" crossorigin="anonymous">
-    </script>
-
-    <script>
-        $(document).ready(function() {
-            // Enable Bootstrap's navbar toggler
-            $(".navbar-toggler").on("click", function() {
-                $(".navbar-collapse").toggleClass("show");
-            });
-        });
     </script>
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -112,7 +103,7 @@
             </div> <!-- .container -->
         </div> <!-- .topbar -->
 
-        <nav class="navbar navbar-expand-md navbar-light shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img src="/assets/images/logo-y.png" class="navbar-logo"></img></a>
 
@@ -168,7 +159,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 py-3 wow fadeInUp">
-                        <h1>Dr. Ebru <br> Parlayan</h1>
+                        <h1 class="h1ebru">Dr. Ebru Parlayan</h1>
                         <p class="text-grey mb-4">Nörolojik hastalıkların çoğu kronik süreçli hastalıklardır. Tedavi başarısını arttırmak için Kronik
                             hastalıklara, Bütüncül Tıp Bakışı ile yaklaşmak gerekir. Bütüncül tıp bakışı hastanın sadece o andaki
                             şikayetine odaklanmak yerine bu şikayetlere neden olan kök nedenleri de bulup onları düzeltmeyi
@@ -182,7 +173,7 @@
                             rağmen hastanın kendi çabası ve isteği olmadan bir başarı elde edilemez. Eğer hastada benimle aynı
                             amaç için çaba gösterir ve tedaviye uyum sağlarsa hastada olabilecek en yüksek iyilik hali elde edilir.
                         </p>
-                        <a style="text-decoration:white" href="about.html" class="btn btn-primary">Daha Fazla</a>
+                        <a style="text-decoration:white" href="about.html" class="btn btn-primary buttonebru">Daha Fazla</a>
                     </div>
 
                 </div>
@@ -565,5 +556,25 @@
     <script src="../assets/js/main.js"></script>
 
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-H9N38dc6nkY2EJyfjDE96GxAKvMmnj7QAMoCVGllf0EC8XRYkaxC7hNiRXc1pNGK" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-WupQg4ZM4BsHq3LR/jIEiJbNRHXoRkrmjY30dZwOzkuU6xIvg1zO+lnT26PCs/Gs" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap JavaScript library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+<!-- JavaScript code to initialize navbar -->
+<script>
+    $(document).ready(function() {
+        $('.navbar-toggler').click(function() {
+            $('.navbar-collapse').toggleClass('show');
+        });
+    });
+</script>
 
 </html>
